@@ -185,9 +185,8 @@ cd karavali-mitra
 
 ## Known Issues
 - Limited to South Canara regions; expand `tourism_data` in `dataset_gen.py` for broader coverage.
-- No advanced error handling (e.g., for missing index files); add try-except in `app.py`.
-- Hardcoded URLs/user IDs: Use `.env` files or config for production.
-- Web Builds: Google Sign-In may require additional setup for CORS and OAuth redirects.
+- No advanced error handling (e.g., for missing index files); add try-except in `app.py`
+- Web Builds: Google Sign-In may require additional setup for CORS and OAuth redirects
 
 ## Deployment
 - **Flutter**:
@@ -198,7 +197,7 @@ cd karavali-mitra
   - Deploy to Heroku, Vercel, or AWS EC2/Lambda.
   - Use Docker: Create a `Dockerfile` for FastAPI/Redis.
   - Environment: Use `python-dotenv` for keys; scale Redis with cloud services (e.g., Redis Labs).
-- **Security**: Restrict CORS origins; use HTTPS; rate-limit API endpoints.
+- **Limitations**: rate-limit API endpoints.
 
 
 ```
