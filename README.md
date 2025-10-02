@@ -197,7 +197,7 @@ cd karavali-mitra
   - Deploy to Heroku, Vercel, or AWS EC2/Lambda.
   - Use Docker: Create a `Dockerfile` for FastAPI/Redis.
   - Environment: Use `python-dotenv` for keys; scale Redis with cloud services (e.g., Redis Labs).
-- **Limitations**: rate-limit API endpoints.
+- **Limitations**: rate-limit API endpoints; FAISS as vector store - operational overhead of FAISS at a deployment level is a potential concern, Works well for a prototype/POC but not ideal for deployments.
 
 
 ```
