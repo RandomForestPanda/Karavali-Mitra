@@ -24,7 +24,7 @@ The app sends user queries and locations to the backend, which retrieves relevan
   - Chrome or Edge for Web development.
 - **API Keys and Configurations**:
   - Google Maps API Key: Required for maps integration. Enable Maps SDK for Android/iOS/JavaScript in Google Cloud Console.
-  - Google Sign-In Client ID: Already hardcoded in `lib/main.dart` (e.g., '807837243380-ku6eat428jbumbo5dkovndj7lp3h9t8f.apps.googleusercontent.com'). Verify/setup in Google Cloud Console under OAuth 2.0 Client IDs.
+  - Google Sign-In Client ID: Verify/setup in Google Cloud Console under OAuth 2.0 Client IDs.
   - Firebase Project: For authentication (firebase_auth package); configure in Google Cloud and add `google-services.json` (Android) and `GoogleService-Info.plist` (iOS).
 - **Hardware/Emulator Requirements**: For location features (Geolocator), use a physical device or emulator with GPS simulation enabled. Permissions must be granted at runtime.
 
