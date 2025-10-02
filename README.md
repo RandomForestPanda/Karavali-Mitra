@@ -1,6 +1,6 @@
-# Karavali Mitra
+# Karavali Mitra : 
 
-Karavali Mitra is a Flutter-based chatbot application that provides travel guide suggestions, itineraries, and tourist spot recommendations for regions like Udupi, Mangalore, and South Canara. It integrates Google Sign-In for authentication, Google Maps for location visualization, Geolocator for real-time location access, and a Python FastAPI backend for AI-powered responses using FAISS for semantic search, Hugging Face's Mistral model for generation, Tavily for web search fallback, and Redis for caching.
+Karavali Mitra which translates to "friend of the coast" is a Flutter-based chatbot application that provides travel guide suggestions, itineraries, and tourist spot recommendations for regions like Udupi, Mangalore, and South Canara. It integrates Google Sign-In for authentication, Google Maps for location visualization, Geolocator for real-time location access, and a Python FastAPI backend for AI-powered responses using FAISS for semantic search, Hugging Face's Mistral model for generation, Tavily for web search fallback, and Redis for caching.
 
 The app sends user queries and locations to the backend, which retrieves relevant information from a pre-built knowledge base or falls back to web searches.
 
