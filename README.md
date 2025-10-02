@@ -57,7 +57,7 @@ The app sends user queries and locations to the backend, which retrieves relevan
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>  # Replace with your Git repository URL (e.g., GitHub)
+git clone [(https://github.com/RandomForestPanda/Karavali-Mitra.git)]
 cd karavali-mitra
 ```
 
